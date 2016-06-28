@@ -1,0 +1,51 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Tue Oct 29 14:50:18 2013]
+[!
+>Data file = /Users/melisaolave/Desktop/Practica/datos/12s_Liolaemus.nxs
+>Neighbor-joining search settings:
+>  Ties (if encountered) will be broken systematically
+>  Distance measure = uncorrected ("p")
+>  (Tree is unrooted)
+]
+	Translate
+		1 4212bib,
+		2 12903,
+		3 6283bib,
+		4 12904,
+		5 12856,
+		6 6458punma,
+		7 7774bib,
+		8 6278bib,
+		9 6847bib,
+		10 1645bib,
+		11 4542gra,
+		12 12854,
+		13 3367bib,
+		14 3486bib,
+		15 12778,
+		16 12905,
+		17 12890,
+		18 12437,
+		19 10347gra,
+		20 9897bib,
+		21 12889,
+		22 4416rami,
+		23 6436bib,
+		24 8988bib,
+		25 10348gra,
+		26 6276bib,
+		27 10422bib,
+		28 10435gra,
+		29 10388bib,
+		30 8137bib,
+		31 8432gra,
+		32 1961robert,
+		33 8907gra,
+		34 7812gra,
+		35 5044saxa,
+		36 7695gra,
+		37 12855
+		;
+tree PAUP_1 = [&U] (1,((((((((2,4),16),17),21),(((((15,25),18),(31,36)),30),19)),(((5,12),37),((((6,(8,(((9,(13,20)),(10,14)),24))),(22,((23,29),(27,28)))),7),32))),((((3,26),33),35),34)),11));
+End;

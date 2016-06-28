@@ -1,0 +1,88 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Tue Oct 29 15:57:51 2013]
+[!
+>Data file = /Users/melisaolave/Desktop/Practica/datos/12s_Liolaemus-paup.nxs
+>Heuristic search settings:
+>  Optimality criterion = likelihood
+>    Likelihood settings:
+>      User-specified substitution rate matrix =
+>                  -   1.000000   1.000000   1.000000
+>           1.000000          -   1.000000   1.000000
+>           1.000000   1.000000          -   1.000000
+>           1.000000   1.000000   1.000000          -
+>      Assumed nucleotide frequencies (empirical frequencies):
+>        A=0.19794  C=0.18091  G=0.25532  T=0.36584
+>      Among-site rate variation:
+>        Assumed proportion of invariable sites  = none
+>        Distribution of rates at variable sites = equal
+>      These settings correspond to the GTR model
+>      Number of distinct data patterns under this model = 133
+>      Molecular clock not enforced
+>      Starting branch lengths obtained using Rogers-Swofford approximation
+>        method
+>      Trees with approximate likelihoods 5% or further from the target score
+>        are rejected without additional iteration
+>      Branch-length optimization = one-dimensional Newton-Raphson with pass
+>                                   limit=20, delta=1e-06
+>      -ln L (unconstrained) = unavailable due to missing-data and/or
+>                              ambiguities
+>  Starting tree(s) obtained via stepwise addition
+>  Addition sequence: as-is
+>  Number of trees held at each step during stepwise addition = 1
+>  Branch-swapping algorithm: tree-bisection-reconnection (TBR)
+>  Steepest descent option not in effect
+>  Initial 'MaxTrees' setting = 100
+>  Branches collapsed (creating polytomies) if branch length is less than or
+>     equal to 1e-08
+>  'MulTrees' option in effect
+>  Topological constraints not enforced
+>  Trees are unrooted
+>
+>Heuristic search completed
+>   Total number of rearrangements tried = 16252
+>   Score of best tree(s) found = 2596.07958
+>   Number of trees retained = 1
+>   Time used = 27 sec (CPU time = 27.16 sec)
+]
+	Translate
+		1 4212bib,
+		2 12903,
+		3 6283bib,
+		4 12904,
+		5 12856,
+		6 6458punma,
+		7 7774bib,
+		8 6278bib,
+		9 6847bib,
+		10 1645bib,
+		11 4542gra,
+		12 12854,
+		13 3367bib,
+		14 3486bib,
+		15 12778,
+		16 12905,
+		17 12890,
+		18 12437,
+		19 10347gra,
+		20 9897bib,
+		21 12889,
+		22 4416rami,
+		23 6436bib,
+		24 8988bib,
+		25 10348gra,
+		26 6276bib,
+		27 10422bib,
+		28 10435gra,
+		29 10388bib,
+		30 8137bib,
+		31 8432gra,
+		32 1961robert,
+		33 8907gra,
+		34 7812gra,
+		35 5044saxa,
+		36 7695gra,
+		37 12855
+		;
+tree PAUP_1 = [&U] (1,(((2,4,16,17,21),(((3,26),35),33,34),(5,12,37),((((6,(8,(((9,24),(13,20)),(10,14)))),((23,29),(27,28))),22),7,32),15,18,19,25,30,31,36),11));
+End;
